@@ -1,12 +1,14 @@
 // Variables and mixins
-@import "variables";
+@import "variables2";
 @import "mixins";
+@include margin-variant(5, 5px);
+@include margin-variant(10, 10px);
 
 /*! Spectre.css v#{$version} | MIT License | github.com/picturepan2/spectre */
+
 // Reset and dependencies
 @import "normalize";
 @import "base";
-
 // Elements
 @import "typography";
 @import "asian";
@@ -16,11 +18,9 @@
 @import "labels";
 @import "codes";
 @import "media";
-
 // Layout
 @import "layout";
 @import "navbar";
-
 // Components
 @import "accordions";
 @import "autocomplete";
@@ -43,7 +43,6 @@
 @import "tiles";
 @import "toasts";
 @import "tooltips";
-
 // Utility classes
 @import "animations";
 @import "utilities";
