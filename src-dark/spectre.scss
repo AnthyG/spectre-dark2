@@ -10,7 +10,8 @@
 @import "../src/normalize";
 @import "../src/base";
 body {
-    background: $bg-color-dark;
+    background: $bg-color;
+    color: $body-font-color;
 }
 
 // Elements
@@ -22,12 +23,16 @@ body {
 .form-input {
     color: $body-font-color-dark;
     &::placeholder {
-        color: $gray-color-dark;
+        color: $gray-color-light;
     }
 }
 
+.form-select {
+    color: $gray-color-light;
+}
+
 textarea.form-input {
-    color: $gray-color;
+    color: $body-font-color-dark;
 }
 
 @import "../src/labels";
@@ -36,6 +41,19 @@ textarea.form-input {
 // Layout
 @import "../src/layout";
 @import "../src/navbar";
+.navbar {
+    &.fixed {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 1000;
+        background-color: $bg-color-dark;
+    }
+    &.fixed>.navbar {
+        background-color: $bg-color-dark;
+    }
+}
+
 // Components
 @import "../src/accordions";
 @import "../src/autocomplete";

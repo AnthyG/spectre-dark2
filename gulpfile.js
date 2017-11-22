@@ -9,7 +9,7 @@ var paths = {
     source: './src/*.scss',
     doc: './docs/src/*.scss',
     source2: './src-dark/*.scss',
-    doc2: './docs-dark/*.scss'
+    doc2: './docs-dark/src/*.scss'
 };
 
 gulp.task('watch', function() {

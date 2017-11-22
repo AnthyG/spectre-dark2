@@ -9,14 +9,14 @@ $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 // Gray colors
 $dark-color: #263238 !default;
-$light-color: #EEEEEE !default;
-$gray-color: lighten($dark-color, 66%) !default;
-$gray-color-dark: darken($gray-color, 20%) !default;
-$gray-color-light: lighten($gray-color, 25%) !default;
-$border-color: lighten($light-color, 60%) !default;
-$border-color-dark: darken($border-color, 10%) !default;
-$bg-color: lighten($dark-color, 0%) !default;
-$bg-color-dark: darken($bg-color, 3%) !default;
+$light-color: #FFFFFF !default;
+$gray-color: lighten($dark-color, 40%) !default;
+$gray-color-dark: lighten($gray-color, 25%) !default;
+$gray-color-light: darken($gray-color, 20%) !default;
+$border-color: darken($light-color, 60%) !default;
+$border-color-dark: lighten($border-color, 10%) !default;
+$bg-color: darken($dark-color, 0%) !default;
+$bg-color-dark: lighten($bg-color, 3%) !default;
 $bg-color-light: $light-color !default;
 // Control colors
 $success-color: #32b643 !default;
@@ -25,7 +25,7 @@ $error-color: #e85600 !default;
 // Other colors
 $code-color: #e06870 !default;
 $highlight-color: #ffe9b3 !default;
-$body-bg: $bg-color-light !default;
+$body-bg: $bg-color-dark !default;
 $body-font-color: darken($light-color, 5%) !default;
 $body-font-color-dark: lighten($dark-color, 5%) !default;
 $link-color: darken($primary-color, 12%) !default;

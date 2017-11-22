@@ -1,3 +1,4 @@
+/*! MODIFY DOCS */
 /*! Spectre.css Docs | MIT License | github.com/picturepan2/spectre */
 .version::after {
   content: "0.4.5";
@@ -42,14 +43,14 @@
 }
 
 .docs-sidebar .accordion input ~ .accordion-header {
-  color: #5b657a;
+  color: #3b4d56;
   font-size: .65rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .docs-sidebar .accordion input:checked ~ .accordion-header {
-  color: #667189;
+  color: #455b66;
 }
 
 .docs-sidebar .accordion .menu .menu-item {
@@ -59,7 +60,7 @@
 
 .docs-sidebar .accordion .menu .menu-item > a {
   background: transparent;
-  color: #667189;
+  color: #cdd7dd;
   display: inline-block;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .docs-content .anchor {
-  color: #6362dc;
+  color: #2beabb;
   height: 0;
   margin-left: -2em;
   overflow: hidden;
@@ -101,7 +102,7 @@
 
 .docs-content .s-title,
 .docs-content .s-subtitle {
-  color: #414857;
+  color: #222d32;
   line-height: 1.8rem;
   margin-bottom: 0;
   padding-bottom: 1rem;
@@ -147,7 +148,7 @@
 }
 
 .docs-content .docs-ad {
-  background: #f8f9fa;
+  background: #263238;
   border-radius: .1rem;
   display: inline-block;
   padding: .4rem;
@@ -155,7 +156,7 @@
 }
 
 .docs-content .docs-ad::before {
-  color: #acb3c2;
+  color: #819ca9;
   content: "AD";
   font-size: .7rem;
   position: absolute;
@@ -173,7 +174,7 @@
 }
 
 .docs-content .docs-block.bg-gray {
-  background: #f0f1f4;
+  background: #2c3a41;
 }
 
 .docs-content .docs-shape {
@@ -208,19 +209,19 @@
 }
 
 .docs-content .code {
-  color: #667189;
+  color: white;
 }
 
 .docs-content .code .com {
-  color: #acb3c2;
+  color: #819ca9;
 }
 
 .docs-content .code .tag {
-  color: #5755d9;
+  color: #1de9b6;
 }
 
 .docs-content .code .atn {
-  color: #667189;
+  color: white;
 }
 
 .docs-content .code .atv {
@@ -254,7 +255,7 @@
 .docs-content .example-tile-icon {
   align-content: space-around;
   align-items: center;
-  background: #5755d9;
+  background: #1de9b6;
   border-radius: .1rem;
   color: #fff;
   display: flex;
@@ -292,7 +293,7 @@
 }
 
 .docs-brand {
-  color: #5755d9;
+  color: #1de9b6;
   left: 1.5rem;
   position: fixed;
   top: .85rem;
@@ -330,12 +331,12 @@
 }
 
 .docs-footer {
-  color: #acb3c2;
+  color: #819ca9;
   padding: .5rem .5rem 1.5rem .5rem;
 }
 
 .docs-footer a {
-  color: #667189;
+  color: #cdd7dd;
 }
 
 .btn .feather {
@@ -354,7 +355,7 @@
 }
 
 .section-hero .docs-brand h2 {
-  color: #5755d9;
+  color: #1de9b6;
 }
 
 .section-hero .column {
@@ -367,7 +368,7 @@
 
 .section-updates .card {
   border: 0;
-  color: #727e96;
+  color: white;
   margin-bottom: 1rem;
 }
 
@@ -380,14 +381,14 @@
 }
 
 .section-footer {
-  color: #acb3c2;
+  color: #819ca9;
   padding: 1.8rem .75rem 1rem .75rem;
   position: relative;
   z-index: 200;
 }
 
 .section-footer a {
-  color: #667189;
+  color: #cdd7dd;
 }
 
 .grid-hero {
@@ -397,13 +398,13 @@
 }
 
 .grid-hero h1 {
-  color: #50596c;
+  color: #f2f2f2;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
 }
 
 .grid-hero h2 {
-  color: #5b657a;
+  color: white;
   font-size: .9rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -419,12 +420,12 @@
 .grid-hero .card {
   background: none;
   border: 0;
-  color: #727e96;
+  color: white;
   padding: .5rem;
 }
 
 .grid-hero .card .card-title {
-  color: #5755d9;
+  color: #1de9b6;
   font-size: .9rem;
   margin-bottom: 0;
 }
@@ -448,7 +449,7 @@
   .docs-navbar {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background: rgba(248, 249, 250, .65);
+    background: rgba(38, 50, 56, .65);
     left: 0;
   }
   .docs-content.off-canvas-content {
@@ -505,4 +506,9 @@
   .docs-content .anchor {
     display: none;
   }
+}
+
+.docs-content .s-title,
+.docs-content .s-subtitle {
+  color: white;
 }
