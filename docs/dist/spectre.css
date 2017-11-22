@@ -819,7 +819,7 @@ legend {
   background-image: none;
   border: .05rem solid #e6e5e5;
   border-radius: .1rem;
-  color: #304047;
+  color: #e1e1e1;
   display: block;
   font-size: .8rem;
   height: 1.8rem;
@@ -838,15 +838,15 @@ legend {
 }
 
 .form-input::-webkit-input-placeholder {
-  color: #93aab6;
+  color: #d0dadf;
 }
 
 .form-input:-ms-input-placeholder {
-  color: #93aab6;
+  color: #d0dadf;
 }
 
 .form-input::placeholder {
-  color: #93aab6;
+  color: #d0dadf;
 }
 
 .form-input.input-sm {
@@ -2383,7 +2383,6 @@ summary.accordion-header::-webkit-details-marker {
   background: #eee;
   border-radius: .1rem;
   box-shadow: 0 .05rem .2rem rgba(38, 50, 56, .3);
-  color: #304047;
   list-style: none;
   margin: 0;
   min-width: 180px;
@@ -3210,7 +3209,7 @@ a.text-error:hover {
 .divider[data-content]::after,
 .divider-vert[data-content]::after {
   background: #eee;
-  color: #93aab6;
+  color: #d0dadf;
   content: attr(data-content);
   display: inline-block;
   font-size: .7rem;
