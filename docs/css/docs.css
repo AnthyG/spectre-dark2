@@ -59,7 +59,7 @@
 
 .docs-sidebar .accordion .menu .menu-item > a {
   background: transparent;
-  color: #93aab6;
+  color: #455b66;
   display: inline-block;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .docs-content .docs-ad {
-  background: #263238;
+  background: white;
   border-radius: .1rem;
   display: inline-block;
   padding: .4rem;
@@ -155,7 +155,7 @@
 }
 
 .docs-content .docs-ad::before {
-  color: #d0dadf;
+  color: #819ca9;
   content: "AD";
   font-size: .7rem;
   position: absolute;
@@ -173,7 +173,7 @@
 }
 
 .docs-content .docs-block.bg-gray {
-  background: #202a2f;
+  background: #f7f7f7;
 }
 
 .docs-content .docs-shape {
@@ -212,7 +212,7 @@
 }
 
 .docs-content .code .com {
-  color: #d0dadf;
+  color: #819ca9;
 }
 
 .docs-content .code .tag {
@@ -330,12 +330,12 @@
 }
 
 .docs-footer {
-  color: #d0dadf;
+  color: #819ca9;
   padding: .5rem .5rem 1.5rem .5rem;
 }
 
 .docs-footer a {
-  color: #93aab6;
+  color: #455b66;
 }
 
 .btn .feather {
@@ -380,14 +380,14 @@
 }
 
 .section-footer {
-  color: #d0dadf;
+  color: #819ca9;
   padding: 1.8rem .75rem 1rem .75rem;
   position: relative;
   z-index: 200;
 }
 
 .section-footer a {
-  color: #93aab6;
+  color: #455b66;
 }
 
 .grid-hero {
@@ -448,7 +448,7 @@
   .docs-navbar {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background: rgba(38, 50, 56, .65);
+    background: rgba(255, 255, 255, .65);
     left: 0;
   }
   .docs-content.off-canvas-content {

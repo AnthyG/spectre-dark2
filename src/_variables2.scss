@@ -10,14 +10,14 @@ $secondary-color-light: lighten($secondary-color, 3%) !default;
 // Gray colors
 $dark-color: #263238 !default;
 $light-color: #EEEEEE !default;
-$gray-color: lighten($dark-color, 66%) !default;
-$gray-color-dark: darken($gray-color, 20%) !default;
-$gray-color-light: lighten($gray-color, 25%) !default;
+$gray-color: lighten($dark-color, 40%) !default;
+$gray-color-dark: darken($gray-color, 25%) !default;
+$gray-color-light: lighten($gray-color, 20%) !default;
 $border-color: lighten($light-color, 60%) !default;
 $border-color-dark: darken($border-color, 10%) !default;
-$bg-color: lighten($dark-color, 0%) !default;
+$bg-color: lighten($light-color, 66%) !default;
 $bg-color-dark: darken($bg-color, 3%) !default;
-$bg-color-light: $light-color !default;
+$bg-color-light: $dark-color !default;
 // Control colors
 $success-color: #32b643 !default;
 $warning-color: #ffb700 !default;
