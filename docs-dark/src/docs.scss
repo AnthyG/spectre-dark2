@@ -1,0 +1,14 @@
+@import "../../src-dark/variables2";
+@import "../src/docs";
+.docs-content {
+    .s-title,
+    .s-subtitle {
+        color: lighten($light-color, 2%);
+    }
+}
+
+.section-updates {
+    .card {
+        color: lighten($body-font-color-dark, 15%);
+    }
+}

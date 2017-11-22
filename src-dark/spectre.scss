@@ -1,0 +1,85 @@
+// Variables and mixins
+@import "variables2";
+@import "../src/mixins";
+@include margin-variant(5, 5px);
+@include margin-variant(10, 10px);
+
+/*! Spectre.css v#{$version} | MIT License | github.com/picturepan2/spectre */
+
+// Reset and dependencies
+@import "../src/normalize";
+@import "../src/base";
+body {
+    background: $bg-color-dark;
+}
+
+// Elements
+@import "../src/typography";
+@import "../src/asian";
+@import "../src/tables";
+@import "../src/buttons";
+@import "../src/forms";
+.form-input {
+    color: $body-font-color-dark;
+    &::placeholder {
+        color: $gray-color-dark;
+    }
+}
+
+textarea.form-input {
+    color: $gray-color;
+}
+
+@import "../src/labels";
+@import "../src/codes";
+@import "../src/media";
+// Layout
+@import "../src/layout";
+@import "../src/navbar";
+// Components
+@import "../src/accordions";
+@import "../src/autocomplete";
+@import "../src/avatars";
+@import "../src/badges";
+@import "../src/breadcrumbs";
+@import "../src/bars";
+@import "../src/cards";
+.card {
+    color: $body-font-color-dark;
+    background: $bg-color-light;
+}
+
+@import "../src/chips";
+@import "../src/dropdowns";
+@import "../src/empty";
+@import "../src/menus";
+.menu {
+    color: $body-font-color-dark;
+}
+
+@import "../src/modals";
+@import "../src/navs";
+@import "../src/pagination";
+@import "../src/panels";
+@import "../src/popovers";
+@import "../src/steps";
+@import "../src/tabs";
+@import "../src/tiles";
+.tile {
+    .tile-title,
+    .tile-subtitle {
+        opacity: .5;
+    }
+}
+
+@import "../src/toasts";
+@import "../src/tooltips";
+// Utility classes
+@import "../src/animations";
+@import "../src/utilities";
+.divider,
+.divider-vert {
+    &[data-content]::after {
+        color: $gray-color-dark;
+    }
+}
