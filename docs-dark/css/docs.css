@@ -148,7 +148,7 @@
 }
 
 .docs-content .docs-ad {
-  background: #263238;
+  background: #2c3a41;
   border-radius: .1rem;
   display: inline-block;
   padding: .4rem;
@@ -174,7 +174,7 @@
 }
 
 .docs-content .docs-block.bg-gray {
-  background: #2c3a41;
+  background: #32424a;
 }
 
 .docs-content .docs-shape {
@@ -449,7 +449,7 @@
   .docs-navbar {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background: rgba(38, 50, 56, .65);
+    background: rgba(44, 58, 65, .65);
     left: 0;
   }
   .docs-content.off-canvas-content {
@@ -510,5 +510,18 @@
 
 .docs-content .s-title,
 .docs-content .s-subtitle {
-  color: white;
+  color: #fafafa;
+}
+
+.docs-content .s-title::before,
+.docs-content .s-subtitle::before {
+  background: #32424a;
+}
+
+.section-updates .card {
+  color: #f2f2f2;
+}
+
+.section-updates .card.light {
+  color: #304047;
 }

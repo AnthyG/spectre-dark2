@@ -6,6 +6,18 @@
 .docs-content {
     .s-title,
     .s-subtitle {
-        color: lighten($light-color, 2%);
+        color: darken($light-color, 2%);
+        &::before {
+            background: $bg-color-dark;
+        }
+    }
+}
+
+.section-updates {
+    .card {
+        color: $body-font-color;
+        &.light {
+            color: $body-font-color-dark;
+        }
     }
 }

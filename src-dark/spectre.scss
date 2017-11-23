@@ -10,12 +10,20 @@
 @import "../src/normalize";
 @import "../src/base";
 body {
-    background: $bg-color;
+    background: $body-bg;
     color: $body-font-color;
+    &.light {
+        background: $bg-color-light;
+        color: $body-font-color-dark
+    }
 }
 
 // Elements
 @import "../src/typography";
+mark {
+    @include label-variant($body-font-color-dark, $highlight-color);
+}
+
 @import "../src/asian";
 @import "../src/tables";
 @import "../src/buttons";
@@ -47,10 +55,18 @@ textarea.form-input {
         left: 0px;
         width: 100%;
         z-index: 1000;
-        background-color: $bg-color-dark;
+        color: $body-font-color;
+        background-color: $bg-color;
+        &>.navbar {
+            color: inherit;
+            background-color: inherit;
+        }
     }
-    &.fixed>.navbar {
-        background-color: $bg-color-dark;
+    &.light {
+        &.fixed {
+            color: $body-font-color-dark;
+            background-color: $bg-color-light;
+        }
     }
 }
 
@@ -63,8 +79,12 @@ textarea.form-input {
 @import "../src/bars";
 @import "../src/cards";
 .card {
-    color: $body-font-color-dark;
-    background: $bg-color-light;
+    color: $body-font-color;
+    background: $bg-color-dark;
+    &.light {
+        color: $body-font-color-dark;
+        background: darken($bg-color-light, 3%);
+    }
 }
 
 @import "../src/chips";

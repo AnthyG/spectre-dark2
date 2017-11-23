@@ -346,7 +346,7 @@ html {
 }
 
 body {
-  background: #2c3a41;
+  background: #32424a;
   color: #f2f2f2;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
@@ -373,8 +373,13 @@ a.active {
 }
 
 body {
-  background: #263238;
+  background: #32424a;
   color: #f2f2f2;
+}
+
+body.light {
+  background: #fff;
+  color: #304047;
 }
 
 h1,
@@ -514,6 +519,11 @@ dl dd {
   margin: .4rem 0 .8rem 0;
 }
 
+mark {
+  background: #ffe9b3;
+  color: #304047;
+}
+
 :lang(zh) {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
 }
@@ -571,16 +581,16 @@ dl dd {
 }
 
 .table.table-striped tbody tr:nth-of-type(odd) {
-  background: #263238;
+  background: #2c3a41;
 }
 
 .table.table-hover tbody tr:hover {
-  background: #2c3a41;
+  background: #32424a;
 }
 
 .table tbody tr.active,
 .table.table-striped tbody tr.active {
-  background: #2c3a41;
+  background: #32424a;
 }
 
 .table td,
@@ -1034,7 +1044,7 @@ textarea.form-input {
 
 .form-checkbox input:active + .form-icon,
 .form-radio input:active + .form-icon {
-  background: #2c3a41;
+  background: #32424a;
 }
 
 .form-checkbox .form-icon {
@@ -1122,7 +1132,7 @@ textarea.form-input {
 }
 
 .form-switch input:active + .form-icon::before {
-  background: #263238;
+  background: #2c3a41;
 }
 
 .input-group {
@@ -1131,7 +1141,7 @@ textarea.form-input {
 }
 
 .input-group .input-group-addon {
-  background: #263238;
+  background: #2c3a41;
   border: .05rem solid #807f7f;
   border-radius: .1rem;
   line-height: 1rem;
@@ -1272,18 +1282,18 @@ textarea.form-input {
 .form-input.disabled,
 .form-select:disabled,
 .form-select.disabled {
-  background-color: #2c3a41;
+  background-color: #32424a;
   cursor: not-allowed;
   opacity: .5;
 }
 
 .form-input[readonly] {
-  background-color: #263238;
+  background-color: #2c3a41;
 }
 
 input:disabled + .form-icon,
 input.disabled + .form-icon {
-  background: #2c3a41;
+  background: #32424a;
   cursor: not-allowed;
   opacity: .5;
 }
@@ -1333,7 +1343,7 @@ textarea.form-input {
 }
 
 .label {
-  background: #2c3a41;
+  background: #32424a;
   border-radius: .1rem;
   color: white;
   display: inline-block; 
@@ -1397,7 +1407,7 @@ code {
 }
 
 .code code {
-  background: #263238;
+  background: #2c3a41;
   color: inherit;
   display: block;
   line-height: 1.5;
@@ -1968,6 +1978,7 @@ video.video-responsive::before {
 
 .navbar.fixed {
   background-color: #2c3a41; 
+  color: #f2f2f2;
   left: 0;
   top: 0;
   width: 100%;
@@ -1975,7 +1986,13 @@ video.video-responsive::before {
 }
 
 .navbar.fixed > .navbar {
-  background-color: #2c3a41;
+  background-color: inherit; 
+  color: inherit;
+}
+
+.navbar.light.fixed {
+  background-color: #fff; 
+  color: #304047;
 }
 
 .accordion input:checked ~ .accordion-header .icon,
@@ -2224,7 +2241,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar {
-  background: #2c3a41;
+  background: #32424a;
   border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
@@ -2277,7 +2294,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar-slider .bar-item:not(:last-child):first-child {
-  background: #2c3a41;
+  background: #32424a;
   z-index: 1;
 }
 
@@ -2340,13 +2357,18 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .card {
-  background: #fff; 
+  background: #32424a; 
+  color: #f2f2f2;
+}
+
+.card.light {
+  background: #f7f7f7; 
   color: #304047;
 }
 
 .chip {
   align-items: center;
-  background: #2c3a41;
+  background: #32424a;
   border-radius: 5rem;
   color: #cdd7dd;
   display: inline-flex;
@@ -2404,7 +2426,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .empty {
-  background: #263238;
+  background: #2c3a41;
   border-radius: .1rem;
   color: #cdd7dd;
   padding: 3.2rem 1.6rem; 
@@ -2515,7 +2537,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .modal:target .modal-overlay,
 .modal.active .modal-overlay {
-  background: rgba(38, 50, 56, .75);
+  background: rgba(44, 58, 65, .75);
   bottom: 0;
   cursor: default;
   display: block;
@@ -3159,7 +3181,7 @@ a.text-error:hover {
 }
 
 .bg-gray {
-  background: #263238;
+  background: #2c3a41;
 }
 
 .bg-success {

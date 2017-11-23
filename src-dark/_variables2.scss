@@ -15,7 +15,7 @@ $gray-color-dark: lighten($gray-color, 25%) !default;
 $gray-color-light: darken($gray-color, 20%) !default;
 $border-color: darken($light-color, 60%) !default;
 $border-color-dark: lighten($border-color, 10%) !default;
-$bg-color: darken($dark-color, 0%) !default;
+$bg-color: lighten($dark-color, 3%) !default;
 $bg-color-dark: lighten($bg-color, 3%) !default;
 $bg-color-light: $light-color !default;
 // Control colors

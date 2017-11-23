@@ -9,7 +9,7 @@
 
 .calendar .calendar-nav {
   align-items: center;
-  background: #263238;
+  background: #2c3a41;
   border-top-left-radius: .1rem;
   border-top-right-radius: .1rem;
   display: flex;
@@ -38,7 +38,7 @@
 }
 
 .calendar .calendar-header {
-  background: #263238;
+  background: #2c3a41;
   border-bottom: .05rem solid #666;
   color: #819ca9;
   font-size: .7rem;
@@ -210,7 +210,7 @@
 }
 
 .carousel {
-  background: #263238;
+  background: #2c3a41;
   display: block;
   overflow: hidden;
   position: relative;
@@ -492,7 +492,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #263238;
+  background: #2c3a41;
   border: 0;
   border-radius: .1rem;
   display: block;
@@ -512,7 +512,7 @@
 }
 
 .meter::-webkit-meter-bar {
-  background: #263238;
+  background: #2c3a41;
 }
 
 .meter::-webkit-meter-optimum-value {
@@ -557,7 +557,7 @@
 }
 
 .off-canvas .off-canvas-sidebar {
-  background: #263238;
+  background: #2c3a41;
   bottom: 0;
   left: 0;
   min-width: 10rem;
@@ -759,7 +759,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #2c3a41;
+  background: #32424a;
   border: 0;
   border-radius: .1rem;
   color: #1de9b6;
@@ -785,7 +785,7 @@
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #2c3a41 linear-gradient(to right, #1de9b6 30%, #2c3a41 30%) top left/150% 150% no-repeat;
+  background: #32424a linear-gradient(to right, #1de9b6 30%, #32424a 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -876,21 +876,21 @@
 }
 
 .slider::-webkit-slider-runnable-track {
-  background: #2c3a41;
+  background: #32424a;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
-  background: #2c3a41;
+  background: #32424a;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
-  background: #2c3a41;
+  background: #32424a;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
