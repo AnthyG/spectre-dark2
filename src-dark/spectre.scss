@@ -118,6 +118,6 @@ textarea.form-input {
 .divider,
 .divider-vert {
     &[data-content]::after {
-        color: $gray-color-dark;
+        color: $gray-color-light;
     }
 }
