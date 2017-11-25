@@ -3,6 +3,12 @@
 @import "../src/mixins";
 @include margin-variant(5, 5px);
 @include margin-variant(10, 10px);
+$lightV-bg-color-light: darken($bg-color-light, 3%);
+@mixin lightV() {
+    color: $body-font-color-dark;
+    background: $lightV-bg-color-light;
+}
+
 
 /*! Spectre.css v#{$version} | MIT License | github.com/picturepan2/spectre */
 
@@ -64,8 +70,7 @@ textarea.form-input {
     }
     &.light {
         &.fixed {
-            color: $body-font-color-dark;
-            background-color: $bg-color-light;
+            @include lightV;
         }
     }
 }
@@ -82,8 +87,7 @@ textarea.form-input {
     color: $body-font-color;
     background: $bg-color-dark;
     &.light {
-        color: $body-font-color-dark;
-        background: darken($bg-color-light, 3%);
+        @include lightV;
     }
 }
 
@@ -92,10 +96,39 @@ textarea.form-input {
 @import "../src/empty";
 @import "../src/menus";
 .menu {
-    color: $body-font-color-dark;
+    background: $bg-color;
+    &.light {
+        @include lightV;
+    }
 }
 
 @import "../src/modals";
+.modal {
+    &.modal-lg {
+        .modal-overlay {
+            background: $bg-color-dark;
+        }
+    }
+    &.light {
+        &.modal-lg {
+            .modal-overlay {
+                background: $lightV-bg-color-light;
+            }
+        }
+        .modal-container {
+            @include lightV;
+        }
+    }
+}
+
+.modal-container {
+    color: $body-font-color;
+    background: $bg-color-dark;
+    &.light {
+        @include lightV;
+    }
+}
+
 @import "../src/navs";
 @import "../src/pagination";
 @import "../src/panels";

@@ -1991,7 +1991,7 @@ video.video-responsive::before {
 }
 
 .navbar.light.fixed {
-  background-color: #fff; 
+  background: #f7f7f7; 
   color: #304047;
 }
 
@@ -2508,6 +2508,11 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .menu {
+  background: #2c3a41;
+}
+
+.menu.light {
+  background: #f7f7f7; 
   color: #304047;
 }
 
@@ -2592,6 +2597,29 @@ summary.accordion-header::-webkit-details-marker {
 .modal-container .modal-footer {
   padding: .8rem;
   text-align: right;
+}
+
+.modal.modal-lg .modal-overlay {
+  background: #32424a;
+}
+
+.modal.light.modal-lg .modal-overlay {
+  background: #f7f7f7;
+}
+
+.modal.light .modal-container {
+  background: #f7f7f7; 
+  color: #304047;
+}
+
+.modal-container {
+  background: #32424a; 
+  color: #f2f2f2;
+}
+
+.modal-container.light {
+  background: #f7f7f7; 
+  color: #304047;
 }
 
 .nav {
