@@ -1982,12 +1982,13 @@ video.video-responsive::before {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 299;
 }
 
 .navbar.fixed > .navbar {
   background-color: inherit; 
   color: inherit;
+  height: 48px;
 }
 
 .navbar.light.fixed {

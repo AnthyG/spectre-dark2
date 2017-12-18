@@ -43,6 +43,7 @@ gulp.task('build2', function() {
         .pipe(csscomb())
         .pipe(gulp.dest('./dist-dark'))
         .pipe(cleancss())
+        .pipe(gulp.dest('D:/ZeroNet-win-dist/data/14PEBop2eFFvYFv2D3owaBpb98nsW7BCLH/src/css'))
         .pipe(rename({
             suffix: '.min'
         }))
