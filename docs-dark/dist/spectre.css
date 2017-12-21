@@ -2600,6 +2600,10 @@ summary.accordion-header::-webkit-details-marker {
   text-align: right;
 }
 
+.modal .modal-overlay {
+  z-index: -1;
+}
+
 .modal.modal-lg .modal-overlay {
   background: #32424a;
 }

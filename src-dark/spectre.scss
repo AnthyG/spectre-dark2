@@ -105,6 +105,9 @@ textarea.form-input {
 
 @import "../src/modals";
 .modal {
+    .modal-overlay {
+        z-index: -1;
+    }
     &.modal-lg {
         .modal-overlay {
             background: $bg-color-dark;
