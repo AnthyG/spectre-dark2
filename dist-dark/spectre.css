@@ -860,6 +860,10 @@ legend {
   color: #819ca9;
 }
 
+.form-input::-ms-input-placeholder {
+  color: #819ca9;
+}
+
 .form-input::placeholder {
   color: #819ca9;
 }
@@ -1327,6 +1331,10 @@ input.disabled + .form-icon {
 }
 
 .form-input:-ms-input-placeholder {
+  color: #4f6875;
+}
+
+.form-input::-ms-input-placeholder {
   color: #4f6875;
 }
 
